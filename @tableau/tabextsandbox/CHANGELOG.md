@@ -1,0 +1,29 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [1.1.0] - 2019-10-25
+### Added
+- Learn more link to 'unsupported browser and Tableau version' error pages for more context
+- data: uris are now available for fonts.
+- The Tableau Extensions API JavaScript libraries are available statically in both the local and hosted environments.
+  The following resources are available:
+    * /resources/tableau.extensions.1.3.0.js
+    * /resources/tableau.extensions.1.3.0.min.js
+    * /resources/tableau.extensions.1.latest.js
+    * /resources/tableau.extensions.1.latest.min.js
+
+### Fixed
+- Content-Type issues
+
+
+## [1.0.1] - 2019-09-12
+### Fixed
+- /favicon.ico is served up empty to prevent misleading errors in browser console
+- Empty type definitions added to prevent ts compilation errors
+
+## [1.0.0] - 2019-09-04
+### Added
+- Initial release

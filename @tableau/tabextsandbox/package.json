@@ -1,0 +1,48 @@
+{
+  "_args": [
+    [
+      "@tableau/tabextsandbox@1.1.0",
+      "D:\\TBExtension\\extensions-api-master"
+    ]
+  ],
+  "_development": true,
+  "_from": "@tableau/tabextsandbox@1.1.0",
+  "_id": "@tableau/tabextsandbox@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-uWo+JsyCHhBg2bNBt6Y47Drv1AM7CuOZ0veTy88tu+dMYTI3SApL0J/eWajJmSz9EAs+ZLxYzQLO0auTb2nnGw==",
+  "_location": "/@tableau/tabextsandbox",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@tableau/tabextsandbox@1.1.0",
+    "name": "@tableau/tabextsandbox",
+    "escapedName": "@tableau%2ftabextsandbox",
+    "scope": "@tableau",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@tableau/tabextsandbox/-/tabextsandbox-1.1.0.tgz",
+  "_spec": "1.1.0",
+  "_where": "D:\\TBExtension\\extensions-api-master",
+  "author": {
+    "name": "Tableau Software"
+  },
+  "bin": {
+    "tabextsandbox": "lib/cli.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "optimist": "^0.6.1"
+  },
+  "description": "Tableau Extensions local sandbox development environment",
+  "license": "MIT",
+  "name": "@tableau/tabextsandbox",
+  "types": "./index.d.ts",
+  "version": "1.1.0"
+}

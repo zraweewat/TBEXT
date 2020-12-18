@@ -1,0 +1,40 @@
+{
+  "_args": [
+    [
+      "@tableau/extensions-api-types@1.4.0",
+      "D:\\TBExtension\\extensions-api-master"
+    ]
+  ],
+  "_development": true,
+  "_from": "@tableau/extensions-api-types@1.4.0",
+  "_id": "@tableau/extensions-api-types@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-fy4+sjiCdgrhqVyLkdSegvEPkJMVKc8O2f10mWdk9KzyCP5EZGPXNiPRCjn3G+tfzFhkuHHgga3MIZZjrD84IQ==",
+  "_location": "/@tableau/extensions-api-types",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@tableau/extensions-api-types@1.4.0",
+    "name": "@tableau/extensions-api-types",
+    "escapedName": "@tableau%2fextensions-api-types",
+    "scope": "@tableau",
+    "rawSpec": "1.4.0",
+    "saveSpec": null,
+    "fetchSpec": "1.4.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@tableau/extensions-api-types/-/extensions-api-types-1.4.0.tgz",
+  "_spec": "1.4.0",
+  "_where": "D:\\TBExtension\\extensions-api-master",
+  "dependencies": {
+    "@types/lodash": "^4.14.126"
+  },
+  "description": "Type declarations for Tableau Extensions API",
+  "license": "MIT",
+  "main": "",
+  "name": "@tableau/extensions-api-types",
+  "version": "1.4.0"
+}
