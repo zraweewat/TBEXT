@@ -165,7 +165,7 @@ var showImages = function(dataset) {
 }
 
 function configure() {
-  const popupUrl = `https://zraweewat.github.io/TBEXT/configure.html`;
+  const popupUrl = `${window.location.origin}/configure.html`;
   tableau.extensions.ui.displayDialogAsync(popupUrl, 'Payload Message', { height: 550, width: 500 }).then((closePayload) => {
     setConfig(function(seenConfig, validConfig) {
       if (validConfig) {
