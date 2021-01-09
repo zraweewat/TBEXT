@@ -1,4 +1,3 @@
-//Tableau.extension.1.4.0.js
 window["tableau"] =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
