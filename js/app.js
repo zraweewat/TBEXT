@@ -90,6 +90,8 @@ var getSelectedMarkData = function () {
   console.log("getSelectedMarkData");
   sheet.getSelectedMarksAsync().then((selected) => {
     if (selected.data[0].data.length > 0) {
+
+
       sheet.getSummaryDataAsync({ignoreSelection: false}).then((data) => {
         console.log(data);
         if (data) {
